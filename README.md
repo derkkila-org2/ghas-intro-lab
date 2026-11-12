@@ -19,7 +19,7 @@ The first CodeQL scan takes a few minutes, so kick it off before anything else.
 4. In your new repository open **Settings**, then **Advanced Security** in the left sidebar (under Security).
    - Under **Code scanning**, next to **CodeQL analysis**, click **Set up**, choose **Default**, then **Enable CodeQL**.
    - Under **Dependabot**, make sure **Dependabot alerts** is enabled. Click **Enable** if it is not.
-   - Under **Secret Protection**, confirm **Secret Protection** and **Push protection** both show as enabled.
+   - Under **Secret Protection**, make sure **Secret Protection** and **Push protection** are both enabled. Click **Enable** on each if it is not. (Your account already blocks secrets on public repos, but the repository setting is what records the alert you will look for in Exercise 1.)
 
 You can watch the CodeQL run under the **Actions** tab. Carry on with the
 exercises while it runs.
