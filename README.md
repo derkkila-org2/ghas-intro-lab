@@ -51,8 +51,8 @@ require approval from someone else (delegated bypass).
 ## Exercise 2: Dependabot finds vulnerable packages (3 minutes)
 
 1. Open **Security**, then **Dependabot**. You should see several alerts for
-   packages pinned in `requirements.txt`. If the list is empty, wait a minute
-   and refresh; the dependency graph is still being built.
+   packages pinned in `requirements.txt`. If the list is still empty, GitHub is
+   still indexing the new repository; do Exercise 3 first and come back.
 2. Open the **Critical** alert for `PyYAML`. Notice the severity, the CVE, the
    patched version, and the file it came from.
 3. Click **Create Dependabot security update**. Dependabot opens a pull request
